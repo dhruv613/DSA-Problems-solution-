@@ -62,3 +62,46 @@ The problems are inspired by popular platforms such as **LeetCode**, **HackerRan
 
 ## Repository Structure
 
+DSA-Problems-solution-/
+│
+
+├── Easy/
+
+│ ├── fibonacci.py
+
+│ ├── array_basics.py
+
+│
+
+├── Intermediate/
+
+│ ├── binary_search.py
+
+│ ├── recursion_examples.py
+
+│
+
+├── Advanced/
+
+│ ├── dynamic_programming.py
+
+│ ├── sliding_window.py
+
+│
+
+└── README.md
+
+## Contribution Guidelines
+
+# Contributions are welcome.
+Follow clean coding practices
+Add comments where required
+Mention time and space complexity
+Keep solutions simple and understandable
+
+## Disclaimer
+This repository is created for learning and practice purposes.
+Solutions may not always be the most optimized, but they focus on clarity and correctness.
+
+## Conclusion
+This repository serves as a structured guide for mastering DSA concepts and preparing for technical interviews through consistent practice.
