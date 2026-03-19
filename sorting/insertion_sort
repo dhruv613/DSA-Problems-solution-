@@ -10,8 +10,8 @@ def insertion_sort(arr):
             arr[j] = key
             j -= 1
             Issort = True
-    if not Issort:
-        break
+        if not Issort:
+            break
     return arr
 
 arr = [12, 11, 13, 5, 6]
