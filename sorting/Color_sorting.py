@@ -23,7 +23,7 @@ arr = [2,0,2,1,1,0]
 print("Sorted-1 array is:", sortColors(arr))
 
 
-# Sorting with conditions and while loop 
+# Sorting with two pointers 
 
 def sortColors(nums):
     left = 0
