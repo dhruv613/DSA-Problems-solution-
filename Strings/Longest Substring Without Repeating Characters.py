@@ -15,5 +15,5 @@ def lengthOfLongestSubstring(s):
 
     return max_len, unique_char
 
-print(lengthOfLongestSubstring("fgfgdhssskkss"))
+print(lengthOfLongestSubstring("babad"))
 
