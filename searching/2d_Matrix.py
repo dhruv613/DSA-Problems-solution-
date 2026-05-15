@@ -20,14 +20,37 @@ class Solution:
                 l = mid + 1
 
         return False
-    
 
-# Example usage:
 
-matrix = [[3, 1, 4],
-          [2, 7, 5],
-          [9, 6, 8]]
-target = 6
-solution = Solution()
-result = solution.searchMatrix(matrix, target)
-print(f"Target {target} found in matrix: {result}")  # Output: Target 3 found in matrix: True
+#There Was an another solution with linear scan , but O(m*n) it scan the array with any type 
+
+
+"""
+for row in matrix:
+    if target in row:
+        return True
+    return False 
+
+"""
+
+# Is the array is an sorted But use Binary search Then ... 
+
+"""   
+flat = sorted(x for row in matrix for x in row)
+l = 0
+r = len(flat)
+
+while l <= r:
+    mid = (l+r)//2
+
+    if flat[mid] == target:
+        return True
+    elif flat[mid] > target:
+        r = mid-1
+
+    else:
+        l = mid+1
+
+return False
+
+"""
